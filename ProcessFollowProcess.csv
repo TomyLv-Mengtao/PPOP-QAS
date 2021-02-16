@@ -20,4 +20,3 @@ Reset Task Status=0 to release pallet,Task Status=0 Tell conveyor release pallet
 Task Status=0 Tell conveyor release pallet,Release Pallet
 Release Pallet,Transport PCB (Out)
 Transport PCB (Out),Transport PCB (Continuous)
-,
