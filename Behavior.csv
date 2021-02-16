@@ -14,3 +14,7 @@ Move to position,Robot arm move to positions
 Set Point,Set Robot Arm Points
 Procedure shutdown,System stop from processing
 Initilize conveyer,Turn on the conveyer
+Gripper Release,Gripper open to release component
+Gripper Grip,Gripper close to grip component
+Gripper Valve Open,Open valve to close the gripper
+Gripper Valve Close,Close valve to open the gripper
