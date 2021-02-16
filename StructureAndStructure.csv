@@ -1,0 +1,44 @@
+Structure1,Structure2,Relation
+Pallet,PCB,Carry
+Conveyor,Conveyor PLC,Contain
+Conveyor,RFID Scanner,Contain
+Conveyor,Position Sensor,Contain
+Conveyor,Servo Motor,Contain
+Conveyor,Lifter,Contain
+Lifter,Solenoid Lifter Valve,Contain
+Position Sensor,Conveyor PLC,DI
+Conveyor PLC,Lifter,DIO
+Conveyor PLC,Conveyor,DO
+P-POP Machine,PPOP PLC,Contain
+P-POP Machine,Line Camera,Contain
+P-POP Machine,Line Laser,Contain
+P-POP Machine,IPC,Ethernet/IP
+IPC,Robot Arm Controller,Modbus TCP
+Robot Arm Controller,P-POP Machine,DIO
+4-axis Robot Arm,Gripper,Contain
+4-axis Robot Arm,Rotator,Contain
+4-axis Robot Arm,Robot Arm Controller,Contain
+Gripper,Solenoid Gripper valve,Contain
+Robot table ,Emergency button,Contain
+Robot table ,Manual/Auto Mode switch ,Contain
+Robot table ,Run/Stop program switch ,Contain
+Robot table ,PLC On/ PLC Off switch ,Contain
+Teach pendant,Emergency button,Contain
+Teach pendant,Jog wheel ,Contain
+Teach pendant,Touchscreen,Contain
+Teach pendant,Safety button,Contain
+Conveyor module control panel,Conveyor,Control
+Conveyor module control panel,Touchscreen,Contain
+Conveyor module control panel,On/Off switch ,Contain
+Conveyor module control panel,Emergency button,Contain
+Conveyor module control panel,Reset button ,Contain
+E-Box,Air Regulator,Contain
+E-Box,Servo Motor Driver,Contain
+Air Regulator,Solenoid Lifter Valve,Drive
+Air Regulator,Solenoid Gripper valve,Drive
+Servo Motor Driver,Servo Motor,Drive
+Conveyor,Servo Motor,Contain
+Conveyor,Stopper,Contain
+Air Regulator,Lifter,Drive
+Conveyor,Lifter,Contain
+Robot Arm Controller,4-axis Robot Arm,Control
