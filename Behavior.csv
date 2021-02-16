@@ -1,0 +1,16 @@
+﻿Behavior_Name,Behavior_Decription
+Rolling,Conveyor moves driven by the servo motor
+Scanning,Scan RFID on PCB
+Detecting,Position Sensor detect Pallet in position
+Lifter Valve Open,Open valve to raise the lifter
+Lifter Valve Close,Close valve to release the lifter
+Lifter Up,Lifter raise up
+Lifter Down,Lifter come down
+Taking 37 pictures,Line camera take 37 pictures of the components
+Beaming,Beaming Laser to enhence the photograph quality
+PPOP_Demo,Main program of the PPOP process
+Rotation,Rotate component to get pictures from all angles
+Move to position,Robot arm move to positions
+Set Point,Set Robot Arm Points
+Procedure shutdown,System stop from processing
+Initilize conveyer,Turn on the conveyer

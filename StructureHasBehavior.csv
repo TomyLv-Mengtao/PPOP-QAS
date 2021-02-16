@@ -1,0 +1,56 @@
+﻿Structure_Name,Behavior_Name,Relation
+Pallet,Detecting,Is objective of
+Pallet,Lifter Up,Is objective of
+Pallet,Lifter Down,Is objective of
+PCB,Scanning,Is objective of
+3-pin Component,Taking 37 pictures,Is objective of
+3-pin Component,Rotation,Is objective of
+3-pin Component,Gripper Release,Is objective of
+3-pin Component,Gripper Grip,Is objective of
+5-pin Component,Taking 37 pictures,Is objective of
+5-pin Component,Rotation,Is objective of
+5-pin Component,Gripper Release,Is objective of
+5-pin Component,Gripper Grip,Is objective of
+Conveyor,Rolling,Is objective of
+Conveyor PLC,Rolling,Control
+Conveyor PLC,Scanning,Control
+Conveyor PLC,Detecting,Control
+Conveyor PLC,Rolling,Control
+Conveyor PLC,Lifter Up,Control
+Conveyor PLC,Lifter Down,Control
+Conveyor PLC,Lifter Valve Open,Control
+Conveyor PLC,Lifter Valve Close,Control
+RFID Scanner,Scanning,Execute
+Position Sensor,Detecting,Execute
+Servo Motor,Rolling,Execute
+Lifter,Lifter Up,Execute
+Lifter,Lifter Down,Execute
+Solenoid Lifter Valve,Lifter Valve Open,Execute
+Solenoid Lifter Valve,Lifter Valve Close,Execute
+PPOP PLC,Taking 37 pictures,Control
+PPOP PLC,Beaming,Control
+Line Camera,Taking 37 pictures,Execute
+Line Laser,Beaming,Execute
+IPC,PPOP_Demo,Execute
+4-axis Robot Arm,Move to position,Execute
+Robot Arm Controller,Move to position,Control
+Robot Arm Controller,Gripper Release,Control
+Robot Arm Controller,Gripper Grip,Control
+Robot Arm Controller,Gripper Valve Open,Control
+Robot Arm Controller,Gripper Valve Close,Control
+Robot Arm Controller,Rotation,Control
+Gripper,Gripper Release,Execute
+Gripper,Gripper Grip,Execute
+Solenoid Gripper valve,Gripper Valve Open,Execute
+Solenoid Gripper valve,Gripper Valve Close,Execute
+Rotator,Rotation,Execute
+Teach pendant,Set Point,Manual
+Emergency button,Procedure shutdown,Trigger
+Jog wheel ,Set Point,Manual
+Touchscreen,Set Point,Manual
+On/Off switch ,Initilize conveyer,Manual
+Air Regulator,Lifter Valve Open,Drive
+Air Regulator,Lifter Valve Close,Drive
+Air Regulator,Gripper Valve Open,Drive
+Air Regulator,Gripper Valve Close,Drive
+Servo Motor Driver,Rolling,Drive
