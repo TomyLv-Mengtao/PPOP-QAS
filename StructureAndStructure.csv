@@ -1,4 +1,4 @@
-Structure1,Structure2,Relation
+﻿Structure1,Structure2,Relation
 Pallet,PCB,Carry
 Conveyor,Conveyor PLC,Contain
 Conveyor,RFID Scanner,Contain
@@ -19,10 +19,10 @@ Robot Arm Controller,P-POP Machine,DIO
 4-axis Robot Arm,Rotator,Contain
 4-axis Robot Arm,Robot Arm Controller,Contain
 Gripper,Solenoid Gripper valve,Contain
-Robot table ,Emergency button,Contain
-Robot table ,Manual/Auto Mode switch ,Contain
-Robot table ,Run/Stop program switch ,Contain
-Robot table ,PLC On/ PLC Off switch ,Contain
+Robot table,Emergency button,Contain
+Robot table,Manual/Auto Mode switch ,Contain
+Robot table,Run/Stop program switch ,Contain
+Robot table,PLC On/ PLC Off switch ,Contain
 Teach pendant,Emergency button,Contain
 Teach pendant,Jog wheel ,Contain
 Teach pendant,Touchscreen,Contain
@@ -37,8 +37,3 @@ E-Box,Servo Motor Driver,Contain
 Air Regulator,Solenoid Lifter Valve,Drive
 Air Regulator,Solenoid Gripper valve,Drive
 Servo Motor Driver,Servo Motor,Drive
-Conveyor,Servo Motor,Contain
-Conveyor,Stopper,Contain
-Air Regulator,Lifter,Drive
-Conveyor,Lifter,Contain
-Robot Arm Controller,4-axis Robot Arm,Control
