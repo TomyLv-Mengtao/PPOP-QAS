@@ -18,6 +18,3 @@ Gripper Grip,Robot Arm self calibrate & proceed to pick component,Proceed
 Gripper Valve Open,Robot Arm self calibrate & proceed to pick component,Proceed
 Gripper Valve Close,Proceed to plug in,Good
 Gripper Valve Close,Throw component to NG box,NG
-,,
-,,
-,,

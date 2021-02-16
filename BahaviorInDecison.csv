@@ -1,5 +1,4 @@
-Behavior_Name,Decision_Name,Relation
+﻿Behavior_Name,Decision_Name,Relation
 Scanning,RFID (Exist?),Impulse
 Detecting,PCB detect (in position?),Impulse
 PPOP_Demo,PPOP result (OK?),Check
-,,
