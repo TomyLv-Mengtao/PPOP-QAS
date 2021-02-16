@@ -1,0 +1,27 @@
+﻿Process_ID,Process_Name
+1,Transport PCB (Continuous)
+3,Stop and Warning
+5,Secure PCB
+6,Pallet Ready 
+7,Write Task Status=1
+8,Read Task Status=1 PPOP start
+9,Write Task Status=2
+10,Task Status=2 Start PPOP operation
+11,Robot Arm self calibrate & proceed to pick component
+12,Robot Arm trigger Line Camera
+13,PPOP process onfly capture
+14,POPP_Demo program receive image from PPOP module and: 1.Check if component is OK; 2.Calculate component pins offset value
+15,Robot Arm receive component pins offset values and do calibration and plug in component
+17,Throw component to NG box
+18,Check next same component on the tray
+19,Proceed to plug in
+20,PPOP opeartion ends Write Task Status=3
+21,Received Task Status=3
+22,Reset Task Status=0 to release pallet
+23,Task Status=0 Tell conveyor release pallet
+24,Release Pallet
+25,Transport PCB (Out)
+,
+,
+,
+,

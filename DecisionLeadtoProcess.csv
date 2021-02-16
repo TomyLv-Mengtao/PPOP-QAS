@@ -1,0 +1,7 @@
+﻿Decision,Process,Relation
+RFID (Exist?),PCB detect (in position?),Positive
+RFID (Exist?),Stop and Warning,Negative
+PCB detect (in position?),Secure PCB,Positive
+PCB detect (in position?),PCB detect (in position?),Negative
+PPOP result (OK?),Proceed to plug in,Positive
+PPOP result (OK?),Throw component to NG box,Negative
