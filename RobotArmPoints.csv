@@ -1,0 +1,19 @@
+Robot_Arm_Point,Name,Component,Description
+1001,Start,Both,Starting position of Robot Arm
+1002,Safe,Both,Safety position of Robot Arm
+1003,NGup,Both,Upper position to throw NG component
+1004,NGdown,Both,Down position to throw NG component
+1015,Feeder1Up,5 Pin,Upper position to pick component 1 (5-pin)
+1016,Feeder1Down,5 Pin,Down position to pick component 1 (5-pin)
+1018,C1OnflyA,5 Pin,Starting position to execute onfly for component 1 (5-pin)
+1019,C1OnflyB,5 Pin,Ending position to execute onfly for component 1 (5-pin)
+1021,C1PluginDown,5 Pin,Plug-in position for component 1 (5-pin)
+1035,Feeder2Up,3 Pin,Upper position to pick component 2 (3-pin)
+1036,Feeder2Down,3 Pin,Down position to pick component 2 (3-pin)
+1038,C2OnflyA,3 Pin,Starting position to execute onfly for component 2 (3-pin)
+1039,C2OnflyB,3 Pin,Ending position to execute onfly for component 2 (3-pin)
+1041,C2PluginDown,5 Pin,Plug-in position for component 2 (3-pin)
+"DO1 ON, DO2  OFF ",GripperOpen,Both,Gripper Open
+"DO1 ON, DO2  OFF ",GripperClose,Both,Gripper Close
+"DO1 ON, DO2  OFF ",ValveClose,Both,Valve Close to open the Gripper
+"DO1 ON, DO2  OFF ",ValveOpen,Both,Valve Open to close the Gripper
