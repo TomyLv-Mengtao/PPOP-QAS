@@ -1,0 +1,23 @@
+﻿Behavior_Name,Process_Name,Relation
+Rolling,Transport PCB (Continuous),Impulse
+Rolling,Transport PCB (Out),Impulse
+Rolling,Pallet Ready ,Hold
+Lifter Valve Open,Secure PCB,Lock
+Lifter Valve Close,Release Pallet,Unlock
+Lifter Up,Secure PCB,Lock
+Lifter Down,Release Pallet,Unlock
+Taking 37 pictures,PPOP process onfly capture,Get picture
+Beaming,PPOP process onfly capture,Ensure quality
+PPOP_Demo,POPP_Demo program receive image from PPOP module and: 1.Check if component is OK; 2.Calculate component pins offset value,Give result
+Rotation,PPOP process onfly capture,Change angle
+Move to position,Robot Arm self calibrate & proceed to pick component,Proceed
+Move to position,Check next same component on the tray,Proceed
+Gripper Release,Proceed to plug in,Good
+Gripper Release,Throw component to NG box,NG
+Gripper Grip,Robot Arm self calibrate & proceed to pick component,Proceed
+Gripper Valve Open,Robot Arm self calibrate & proceed to pick component,Proceed
+Gripper Valve Close,Proceed to plug in,Good
+Gripper Valve Close,Throw component to NG box,NG
+,,
+,,
+,,
