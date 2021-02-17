@@ -1,0 +1,5 @@
+﻿Robot_Arm_Point,Behavior_Name,Relation
+"DO1 ON, DO2  OFF ",Gripper Release,Digital Output
+"DO1 OFF, DO2  ON",Gripper Grip,Digital Output
+"DI2  OFF, DI3 ON",Gripper Valve Close,Digital Input
+"DI2  ON, DI3 OFF",Gripper Valve Open,Digital Input
