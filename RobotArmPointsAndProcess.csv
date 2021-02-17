@@ -1,14 +1,14 @@
-Robot_Arm_Point,,Process_Name,Relation
-1001,Start,Robot Arm self calibrate & proceed to pick component,Regulate
-1003,NGup,Throw component to NG box,Regulate
-1004,NGdown,Throw component to NG box,Regulate
-1015,Feeder1Up,Robot Arm self calibrate & proceed to pick component,Regulate
-1016,Feeder1Down,Robot Arm self calibrate & proceed to pick component,Regulate
-1018,C1OnflyA,PPOP process onfly capture,Regulate
-1019,C1OnflyB,PPOP process onfly capture,Regulate
-1021,C1PluginDown,Proceed to plug in,Regulate
-1035,Feeder2Up,Robot Arm self calibrate & proceed to pick component,Regulate
-1036,Feeder2Down,Robot Arm self calibrate & proceed to pick component,Regulate
-1038,C2OnflyA,PPOP process onfly capture,Regulate
-1039,C2OnflyB,PPOP process onfly capture,Regulate
-1041,C2PluginDown,Proceed to plug in,Regulate
+﻿Robot_Arm_Point,Process_Name,Relation
+1001,Robot Arm self calibrate & proceed to pick component,Regulate
+1003,Throw component to NG box,Regulate
+1004,Throw component to NG box,Regulate
+1015,Robot Arm self calibrate & proceed to pick component,Regulate
+1016,Robot Arm self calibrate & proceed to pick component,Regulate
+1018,PPOP process onfly capture,Regulate
+1019,PPOP process onfly capture,Regulate
+1021,Proceed to plug in,Regulate
+1035,Robot Arm self calibrate & proceed to pick component,Regulate
+1036,Robot Arm self calibrate & proceed to pick component,Regulate
+1038,PPOP process onfly capture,Regulate
+1039,PPOP process onfly capture,Regulate
+1041,Proceed to plug in,Regulate
