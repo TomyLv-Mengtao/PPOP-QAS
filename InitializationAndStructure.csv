@@ -1,0 +1,6 @@
+﻿Initialization_Name,Structure_Name,Relation
+"To teach a point in to the RL’s points list, use teach pendant to move robot arm to desired location, then click 'Teach’ button. Remember to 'Save’ after each teaching. New individual insertion position and the corresponding image are a pair for reference. You can never use new position with the old reference images'",Teach pendant,Use
+Proceed to generate ppopSetting file for component 1(5 pin). Move robot arm so that component is between gripper in both x and y direction. Close gripper and move component up until its pins are detected by laser. Read the Z-height value from teach pendant or DRAstudio,Gripper,Use
+When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’ to close the gripper,Gripper,Use
+Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’) and place it back on the tray,Gripper,Use
+"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",Teach pendant,Use

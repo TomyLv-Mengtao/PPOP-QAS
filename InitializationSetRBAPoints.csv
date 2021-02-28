@@ -1,0 +1,28 @@
+﻿Initialization_Name,Robot_Arm_Point,Relation
+"For points 1001 and 1002, 'Start’ and 'Safe’, one can set them as the same points. The points' location shall be cleared of any obstructions as PPOP operation will start from here",1001,Set
+"For points 1001 and 1002, 'Start’ and 'Safe’, one can set them as the same points. The points' location shall be cleared of any obstructions as PPOP operation will start from here",1002,Set
+"For points 1003 and 1004, 'NGup’ and 'NGdown’, the points location should be at above the NG box and at location where gripper will release the NG components",1003,Set
+"For points 1003 and 1004, 'NGup’ and 'NGdown’, the points location should be at above the NG box and at location where gripper will release the NG components",1004,Set
+"For point 1016, 'Feeder1Down’, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'On’ and DO2 is 'Off’)",1016,Set
+"For point 1016, 'Feeder1Down’, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'On’ and DO2 is 'Off’)","DO1 ON, DO2  OFF ",Under status
+"For point 1015, 'Feeder1Up’, it will be the same as 1016 for X, Y and RZ value. Change only its Z (mm) value to around 80mm above 1015’s Z value. For example, Z value for 1016 is -131.527 -> set Z value for 1015 to be around -50",1015,Set
+"Points 1018 and 1019, C1Onfly1A and C1Onfly1B will be the starting and ending point of OnFly     function for component 1",1018,Set
+"Points 1018 and 1019, C1Onfly1A and C1Onfly1B will be the starting and ending point of OnFly     function for component 1",1019,Set
+When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’ to close the gripper,"DO1 OFF, DO2  ON",Under status
+"Rotate (Rz) the robot arm shaft so that the DMV camera is on the laser source side (height/Z value must remained the same as obtained in step 23). Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1018, C1Onfly1A",1018,Set
+"Move the robot arm to the location where PCB will be stopped on the conveyor, with height/Z value remained the same as step 24. Then, rotate (Rz) the robot arm shaft so that the DMV camera is at the Line/Teledyne Dalsa camera side. Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1019, C1Onfly1B",1019,Set
+Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’) and place it back on the tray,"DO1 OFF, DO2  ON",Under status
+"Move robot arm to point 1018, change the Jog mode to 'Joint’ to convert the values to puu. Record the puu value for J4.
+For example, the J4 value below shows -933493 puu, convert puu to degree using the following formula. -933493 puu = (-933493 /15/100000) x 360 = -224.04 degree",1018,Set
+Repeat step 26 by using point 1019,1019,Set
+"The difference in J4 angle in degree for 1018 and 1019 is bigger then 200 degree is OK.
+If less than 200 degree means that for point 1018 and 1019, the DMV camera is not near enough to the cover",1018,Set
+"The difference in J4 angle in degree for 1018 and 1019 is bigger then 200 degree is OK.
+If less than 200 degree means that for point 1018 and 1019, the DMV camera is not near enough to the cover",1019,Set
+"Using teach pendant, in ‘Cartesian’ mode and speed ‘1%’, move the component slowly until it is plug in to the corresponding PCB holes",1021,Set
+"Teach this point as 1021, C1PluginDown (in 'World' mode). Then, change the mode to 'User' and select '1' under 'UF'. Select to highlight row 1022, C1PluginDownUF, click 'Teach' again",1021,Set
+"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",1035,Set
+"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",1036,Set
+"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",1038,Set
+"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",1039,Set
+"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",1041,Set
