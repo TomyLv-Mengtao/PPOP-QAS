@@ -1,5 +1,5 @@
-ï»¿Initialization_ID,Initialization_Name
-0,"To teach a point in to the RLâ€™s points list, use teach pendant to move robot arm to desired location, then click 'Teachâ€™ button. Remember to 'Saveâ€™ after each teaching. New individual insertion position and the corresponding image are a pair for reference. You can never use new position with the old reference images'"
+Initialization_ID,Initialization_Name
+0,"To teach a point in to the RL¡¯s points list, use teach pendant to move robot arm to desired location, then click 'Teach¡¯ button. Remember to 'Save¡¯ after each teaching. New individual insertion position and the corresponding image are a pair for reference. You can never use new position with the old reference images'"
 1,Save OnFly Test folder in C:\Delta Industrial Automation\DELTA_IA-Robot_DRAStudio-V1-00-07-18_SW_TSE_20190121\DROEsolution
 2,"Open DRAstudio. Click Project>>Click Change Path>> Change Path>>
 search for DROEsolution folder in C:\Delta Industrial Automation\DELTA_IA-Robot_DRAStudio-V1-00-07-18_SW_TSE_20190121\DROEsolution
@@ -7,45 +7,45 @@ search for DROEsolution folder in C:\Delta Industrial Automation\DELTA_IA-Robot_
 3,Click the drag window and select OnFly Test. Click Edit Project
 4,The codes should appear after RL is clicked
 5,Open P-POP setting program by unzipping the file
-6,Type '0â€™(run onfly RL with no component on gripper)>>Enter
+6,Type '0¡¯(run onfly RL with no component on gripper)>>Enter
 7,Click on the camera image window and press q to close it
 8,Wait until step 4 message appear. Then make sure no component is on gripper and the robot path is clear. Run the RL program
-9,Type 'yâ€™ in P-POP setting program(step4) and press Enter after Onfly RL program finished running
-10,â€™Trigger successâ€™ should appear. A file ppopSetting_0 should appear in P-POP setting program folder
+9,Type 'y¡¯ in P-POP setting program(step4) and press Enter after Onfly RL program finished running
+10,¡¯Trigger success¡¯ should appear. A file ppopSetting_0 should appear in P-POP setting program folder
 11,Proceed to generate ppopSetting file for component 1(5 pin). Move robot arm so that component is between gripper in both x and y direction. Close gripper and move component up until its pins are detected by laser. Read the Z-height value from teach pendant or DRAstudio
-12,"Under 'Pointsâ€™ tab, key in the Z-height value read from step 11 for all rows"
-13,"Repeat steps 5-10 for component 1. At step 6, remember to type '1â€™ instead of 0 as we are generating file for component 1"
+12,"Under 'Points¡¯ tab, key in the Z-height value read from step 11 for all rows"
+13,"Repeat steps 5-10 for component 1. At step 6, remember to type '1¡¯ instead of 0 as we are generating file for component 1"
 14,"For component 2 (3 pins), repeat step 11-12, followed by step 5-10"
-15,3 files will be generated in P-POP setting folder. Send them to AGPC team to be converted into 'goldenâ€™ reference images
-16,Open the '2019 TSM Finalâ€™ file with DRAStudio. Click the 'Pointsâ€™ tab on the left. A list of 42 points will be shown
-17,"For points 1001 and 1002, 'Startâ€™ and 'Safeâ€™, one can set them as the same points. The pointsâ€™ location shall be cleared of any obstructions as PPOP operation will start from here"
-18,"For points 1003 and 1004, 'NGupâ€™ and 'NGdownâ€™, the points location should be at above the NG box and at location where gripper will release the NG components"
-19,"For point 1016, 'Feeder1Downâ€™, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'Onâ€™ and DO2 is 'Offâ€™)"
-20,"For point 1015, 'Feeder1Upâ€™, it will be the same as 1016 for X, Y and RZ value. Change only its Z (mm) value to around 80mm above 1015â€™s Z value. For example, Z value for 1016 is -131.527 -> set Z value for 1015 to be around -50"
+15,3 files will be generated in P-POP setting folder. Send them to AGPC team to be converted into 'golden¡¯ reference images
+16,Open the '2019 TSM Final¡¯ file with DRAStudio. Click the 'Points¡¯ tab on the left. A list of 42 points will be shown
+17,"For points 1001 and 1002, 'Start¡¯ and 'Safe¡¯, one can set them as the same points. The points' location shall be cleared of any obstructions as PPOP operation will start from here"
+18,"For points 1003 and 1004, 'NGup¡¯ and 'NGdown¡¯, the points location should be at above the NG box and at location where gripper will release the NG components"
+19,"For point 1016, 'Feeder1Down¡¯, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'On¡¯ and DO2 is 'Off¡¯)"
+20,"For point 1015, 'Feeder1Up¡¯, it will be the same as 1016 for X, Y and RZ value. Change only its Z (mm) value to around 80mm above 1015¡¯s Z value. For example, Z value for 1016 is -131.527 -> set Z value for 1015 to be around -50"
 21,"Points 1018 and 1019, C1Onfly1A and C1Onfly1B will be the starting and ending point of OnFly     function for component 1"
-22,When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Offâ€™ and DO2 is 'Onâ€™ to close the gripper
-23,"With component 1 being gripped, move the gripper/robot arm to the height (Z value) where component 1â€™s pins will be detected by the laser source. You could refer to the height/Z value taught in 'PPOP_Setting program guideâ€™ step 11"
+22,When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Off¡¯ and DO2 is 'On¡¯ to close the gripper
+23,"With component 1 being gripped, move the gripper/robot arm to the height (Z value) where component 1¡¯s pins will be detected by the laser source. You could refer to the height/Z value taught in 'PPOP_Setting program guide¡¯ step 11"
 24,"Rotate (Rz) the robot arm shaft so that the DMV camera is on the laser source side (height/Z value must remained the same as obtained in step 23). Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1018, C1Onfly1A"
 25,"Move the robot arm to the location where PCB will be stopped on the conveyor, with height/Z value remained the same as step 24. Then, rotate (Rz) the robot arm shaft so that the DMV camera is at the Line/Teledyne Dalsa camera side. Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1019, C1Onfly1B"
-26,Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Offâ€™ and DO2 is 'Onâ€™) and place it back on the tray
-27,"Move robot arm to point 1018, change the Jog mode to 'Jointâ€™ to convert the values to puu. Record the puu value for J4.
+26,Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Off¡¯ and DO2 is 'On¡¯) and place it back on the tray
+27,"Move robot arm to point 1018, change the Jog mode to 'Joint¡¯ to convert the values to puu. Record the puu value for J4.
 For example, the J4 value below shows -933493 puu, convert puu to degree using the following formula. -933493 puu = (-933493 /15/100000) x 360 = -224.04 degree"
 28,Repeat step 26 by using point 1019
 29,"The difference in J4 angle in degree for 1018 and 1019 is bigger then 200 degree is OK.
 If less than 200 degree means that for point 1018 and 1019, the DMV camera is not near enough to the cover"
 30,Click the RL tab on the left. Scroll down till line 475. Click on the space beside the number 475. A red dot (breakpoint) will appear on the left
 31,"Open the PPOPDemo folder.  
-Paste the 'golden reference imageâ€™ (obtained from AGPC, TW in the 'PPOP_Setting program guideâ€™) to the PPOP_Reference folder"
-32,"Click the 'P-POP_demoâ€™ application file. T
-The programâ€™s user interface will now show up"
+Paste the 'golden reference image¡¯ (obtained from AGPC, TW in the 'PPOP_Setting program guide¡¯) to the PPOP_Reference folder"
+32,"Click the 'P-POP_demo¡¯ application file. T
+The program¡¯s user interface will now show up"
 33,"Click the 'Analysis' tab, Click 'Set Reference'. Click the Reference Img box on the row of ID1 and browse to the PPOP_Reference folder. "
 34,Select the 'golden reference image'. Click 'Save Reference' and it will turn green.Close the window
 35,"Click the 'P-POP' tab. Then, select CPU and click 'Start'. Both the 'IDLE' box should turn green and become 'Camera Linked' and 'Linked'"
 36,Run the RL program by clicking 'Start'
 37,"The robot arm should stop somewhere above the PCB, as the RL program will stop at line 475. Switch the robot arm into 'Manual' mode"
 38,"Check that on PPOPDemo program, the 'OK' signal should appear on the box on top"
-39,"Stop the PPOPDemo program. Click the 'Analysis' tab. Click 'Set Referenceâ€™. Click the Reference Img box on the row of ID1 and browse to the PPOP_Image folder. Select the 'image generatedâ€™. Click 'Save Referenceâ€™ and it will turn green. Close the window. Now, PPOPDemo program will refer to the 'image generated' as 'golden image'"
-40,"Using teach pendant, in â€˜Cartesianâ€™ mode and speed â€˜1%â€™, move the component slowly until it is plug in to the corresponding PCB holes"
+39,"Stop the PPOPDemo program. Click the 'Analysis' tab. Click 'Set Reference¡¯. Click the Reference Img box on the row of ID1 and browse to the PPOP_Image folder. Select the 'image generated¡¯. Click 'Save Reference¡¯ and it will turn green. Close the window. Now, PPOPDemo program will refer to the 'image generated' as 'golden image'"
+40,"Using teach pendant, in ¡®Cartesian¡¯ mode and speed ¡®1%¡¯, move the component slowly until it is plug in to the corresponding PCB holes"
 41,"Teach this point as 1021, C1PluginDown (in 'World' mode). Then, change the mode to 'User' and select '1' under 'UF'. Select to highlight row 1022, C1PluginDownUF, click 'Teach' again"
 42,"copy one row' 1022, and 'paste one row' to 1020, C1PluginUpUF.  Edit only the Z value of 1020 to be around 20mm more than that of 1022. For example, if the Z value of 1022 = -35(mm), edit the Z value of 1020 to be around -15(mm) with the remaining X, Y and RZ values unchanged. Remember to 'Save'"
 43,"Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042"
