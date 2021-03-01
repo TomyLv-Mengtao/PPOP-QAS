@@ -1,0 +1,14 @@
+﻿UserOperation,UserOperation_Name
+0,Start the conveyor belt and make sure it is moving
+1,Go to Ebox under the robot arm to switch on the machine
+2,Ensure that components are available on first row of tray. Ensure that no component is on gripper
+3,"Log in to PPOP computer.
+Username : SRV-SG.SMART
+Password : (contact machine owner for log-in credentials)"
+4,"Double click DRAstudio on desktop.  If by any instances error popped out, just click ok to ignore."
+5,Login.(contact machine owner for log-in credentials)
+6,"Click Ethernet. Click Connect. Once connected, the Ethernet symbol will turn GREEN. Make sure the Teach Pendant symbol is in ORANGE. If not, go to the teach pendant and press the Teach Pendant symbol"
+7,Click Play to run the program
+8,Open the PPOPDemo folder on desktop. Double click on P-PPOP_demo
+9,Click Start. Wait till the 2 IDLE boxes turn GREEN. (means that line camera is linked)
+10,Place the palette onto the conveyor

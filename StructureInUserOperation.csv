@@ -1,0 +1,10 @@
+﻿Structure_Name,UserOperation_Name
+Conveyor module control panel,Start the conveyor belt and make sure it is moving
+Conveyor,Start the conveyor belt and make sure it is moving
+E-Box,Go to Ebox under the robot arm to switch on the machine
+3-pin Component,Ensure that components are available on first row of tray. Ensure that no component is on gripper
+5-pin Component,Ensure that components are available on first row of tray. Ensure that no component is on gripper
+Gripper,Ensure that components are available on first row of tray. Ensure that no component is on gripper
+Teach pendant,"Click Ethernet. Click Connect. Once connected, the Ethernet symbol will turn GREEN. Make sure the Teach Pendant symbol is in ORANGE. If not, go to the teach pendant and press the Teach Pendant symbol"
+Pallet,Place the palette onto the conveyor
+Conveyor,Place the palette onto the conveyor
