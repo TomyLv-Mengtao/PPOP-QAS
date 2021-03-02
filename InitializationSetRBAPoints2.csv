@@ -1,0 +1,25 @@
+﻿Initialization_ID,Robot_Arm_Point,Relation
+17,1001,Set
+17,1002,Set
+17,1003,Set
+17,1004,Set
+19,1016,Set
+19,"DO1 ON, DO2  OFF ",Under status
+20,1015,Set
+21,1018,Set
+21,1019,Set
+22,"DO1 OFF, DO2  ON",Under status
+24,1018,Set
+25,1019,Set
+26,"DO1 OFF, DO2  ON",Under status
+27,1018,Set
+28,1019,Set
+29,1018,Set
+29,1019,Set
+40,1021,Set
+41,1021,Set
+43,1035,Set
+43,1036,Set
+43,1038,Set
+43,1039,Set
+43,1041,Set
