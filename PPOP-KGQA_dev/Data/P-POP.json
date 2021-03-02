@@ -1,0 +1,5476 @@
+﻿[
+  {
+    "p": {
+"identity": 0,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Pallet"
+      }
+    },
+    "r": {
+"identity": 27,
+"start": 0,
+"end": 1,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Carry"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 87,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1015",
+"Description": "Upper position to pick component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "Feeder1Up"
+      }
+    },
+    "r": {
+"identity": 161,
+"start": 87,
+"end": 2,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 89,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1018",
+"Description": "Starting position to execute onfly for component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "C1OnflyA"
+      }
+    },
+    "r": {
+"identity": 163,
+"start": 89,
+"end": 2,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 91,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1021",
+"Description": "Plug-in position for component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "C1PluginDown"
+      }
+    },
+    "r": {
+"identity": 165,
+"start": 91,
+"end": 2,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 88,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1016",
+"Description": "Down position to pick component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "Feeder1Down"
+      }
+    },
+    "r": {
+"identity": 162,
+"start": 88,
+"end": 2,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 90,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1019",
+"Description": "Ending position to execute onfly for component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "C1OnflyB"
+      }
+    },
+    "r": {
+"identity": 164,
+"start": 90,
+"end": 2,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 28,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "6",
+"Process_Name": "Pallet Ready "
+      }
+    },
+    "r": {
+"identity": 1,
+"start": 28,
+"end": 3,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 83,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1041",
+"Description": "Plug-in position for component 2 (3-pin)",
+"Component": "5 Pin",
+"Name": "C2PluginDown"
+      }
+    },
+    "r": {
+"identity": 170,
+"start": 83,
+"end": 4,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 95,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1039",
+"Description": "Ending position to execute onfly for component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "C2OnflyB"
+      }
+    },
+    "r": {
+"identity": 169,
+"start": 95,
+"end": 4,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 93,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1036",
+"Description": "Down position to pick component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "Feeder2Down"
+      }
+    },
+    "r": {
+"identity": 167,
+"start": 93,
+"end": 4,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 94,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1038",
+"Description": "Starting position to execute onfly for component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "C2OnflyA"
+      }
+    },
+    "r": {
+"identity": 168,
+"start": 94,
+"end": 4,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 92,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1035",
+"Description": "Upper position to pick component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "Feeder2Up"
+      }
+    },
+    "r": {
+"identity": 166,
+"start": 92,
+"end": 4,
+"type": "RoboArmPointRegulatetStructure",
+"properties": {
+"Relation": "Regulate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 3,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "7",
+"Process_Name": "Write Task Status=1"
+      }
+    },
+    "r": {
+"identity": 2,
+"start": 3,
+"end": 5,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 5,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "8",
+"Process_Name": "Read Task Status=1 PPOP start"
+      }
+    },
+    "r": {
+"identity": 3,
+"start": 5,
+"end": 6,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 6,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "9",
+"Process_Name": "Write Task Status=2"
+      }
+    },
+    "r": {
+"identity": 4,
+"start": 6,
+"end": 7,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 82,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1001",
+"Description": "Starting position of Robot Arm",
+"Component": "Both",
+"Name": "Start"
+      }
+    },
+    "r": {
+"identity": 144,
+"start": 82,
+"end": 8,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 87,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1015",
+"Description": "Upper position to pick component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "Feeder1Up"
+      }
+    },
+    "r": {
+"identity": 147,
+"start": 87,
+"end": 8,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 92,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1035",
+"Description": "Upper position to pick component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "Feeder2Up"
+      }
+    },
+    "r": {
+"identity": 152,
+"start": 92,
+"end": 8,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 93,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1036",
+"Description": "Down position to pick component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "Feeder2Down"
+      }
+    },
+    "r": {
+"identity": 153,
+"start": 93,
+"end": 8,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 88,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1016",
+"Description": "Down position to pick component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "Feeder1Down"
+      }
+    },
+    "r": {
+"identity": 148,
+"start": 88,
+"end": 8,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 74,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Move to position",
+"Behavior_Decription": "Robot arm move to positions"
+      }
+    },
+    "r": {
+"identity": 133,
+"start": 74,
+"end": 8,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Proceed"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 79,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Gripper Grip",
+"Behavior_Decription": "Gripper close to grip component"
+      }
+    },
+    "r": {
+"identity": 137,
+"start": 79,
+"end": 8,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Proceed"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 80,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Gripper Valve Open",
+"Behavior_Decription": "Open valve to close the gripper"
+      }
+    },
+    "r": {
+"identity": 138,
+"start": 80,
+"end": 8,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Proceed"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 14,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "18",
+"Process_Name": "Check next same component on the tray"
+      }
+    },
+    "r": {
+"identity": 11,
+"start": 14,
+"end": 8,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 7,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "10",
+"Process_Name": "Task Status=2 Start PPOP operation"
+      }
+    },
+    "r": {
+"identity": 5,
+"start": 7,
+"end": 8,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 8,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "11",
+"Process_Name": "Robot Arm self calibrate & proceed to pick component"
+      }
+    },
+    "r": {
+"identity": 6,
+"start": 8,
+"end": 9,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 95,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1039",
+"Description": "Ending position to execute onfly for component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "C2OnflyB"
+      }
+    },
+    "r": {
+"identity": 155,
+"start": 95,
+"end": 10,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 94,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1038",
+"Description": "Starting position to execute onfly for component 2 (3-pin)",
+"Component": "3 Pin",
+"Name": "C2OnflyA"
+      }
+    },
+    "r": {
+"identity": 154,
+"start": 94,
+"end": 10,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 89,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1018",
+"Description": "Starting position to execute onfly for component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "C1OnflyA"
+      }
+    },
+    "r": {
+"identity": 149,
+"start": 89,
+"end": 10,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 90,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1019",
+"Description": "Ending position to execute onfly for component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "C1OnflyB"
+      }
+    },
+    "r": {
+"identity": 150,
+"start": 90,
+"end": 10,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 70,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Taking 37 pictures",
+"Behavior_Decription": "Line camera take 37 pictures of the components"
+      }
+    },
+    "r": {
+"identity": 129,
+"start": 70,
+"end": 10,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Get picture"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 73,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Rotation",
+"Behavior_Decription": "Rotate component to get pictures from all angles"
+      }
+    },
+    "r": {
+"identity": 132,
+"start": 73,
+"end": 10,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Change angle"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 71,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Beaming",
+"Behavior_Decription": "Beaming Laser to enhence the photograph quality"
+      }
+    },
+    "r": {
+"identity": 130,
+"start": 71,
+"end": 10,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Ensure quality"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 9,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "12",
+"Process_Name": "Robot Arm trigger Line Camera"
+      }
+    },
+    "r": {
+"identity": 7,
+"start": 9,
+"end": 10,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 72,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "PPOP_Demo",
+"Behavior_Decription": "Main program of the PPOP process"
+      }
+    },
+    "r": {
+"identity": 131,
+"start": 72,
+"end": 11,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Give result"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 10,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "13",
+"Process_Name": "PPOP process onfly capture"
+      }
+    },
+    "r": {
+"identity": 8,
+"start": 10,
+"end": 11,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 11,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "14",
+"Process_Name": "POPP_Demo program receive image from PPOP module and: 1.Check if component is OK; 2.Calculate component pins offset value"
+      }
+    },
+    "r": {
+"identity": 9,
+"start": 11,
+"end": 12,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 86,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1004",
+"Description": "Down position to throw NG component",
+"Component": "Both",
+"Name": "NGdown"
+      }
+    },
+    "r": {
+"identity": 146,
+"start": 86,
+"end": 13,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 85,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1003",
+"Description": "Upper position to throw NG component",
+"Component": "Both",
+"Name": "NGup"
+      }
+    },
+    "r": {
+"identity": 145,
+"start": 85,
+"end": 13,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 78,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Gripper Release",
+"Behavior_Decription": "Gripper open to release component"
+      }
+    },
+    "r": {
+"identity": 136,
+"start": 78,
+"end": 13,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "NG"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 81,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Gripper Valve Close",
+"Behavior_Decription": "Close valve to open the gripper"
+      }
+    },
+    "r": {
+"identity": 140,
+"start": 81,
+"end": 13,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "NG"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 24,
+"labels": [
+        "Decision",
+        "Process"
+      ],
+"properties": {
+"Process_ID": "16",
+"Decision_Name": "PPOP result (OK?)",
+"Next_For_Positive": "Proceed to plug in",
+"Next_For _Negative": "Throw component to NG box"
+      }
+    },
+    "r": {
+"identity": 24,
+"start": 24,
+"end": 13,
+"type": "DecisionLeadtoProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 74,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Move to position",
+"Behavior_Decription": "Robot arm move to positions"
+      }
+    },
+    "r": {
+"identity": 134,
+"start": 74,
+"end": 14,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Proceed"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 13,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "17",
+"Process_Name": "Throw component to NG box"
+      }
+    },
+    "r": {
+"identity": 10,
+"start": 13,
+"end": 14,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 83,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1041",
+"Description": "Plug-in position for component 2 (3-pin)",
+"Component": "5 Pin",
+"Name": "C2PluginDown"
+      }
+    },
+    "r": {
+"identity": 156,
+"start": 83,
+"end": 15,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 91,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "1021",
+"Description": "Plug-in position for component 1 (5-pin)",
+"Component": "5 Pin",
+"Name": "C1PluginDown"
+      }
+    },
+    "r": {
+"identity": 151,
+"start": 91,
+"end": 15,
+"type": "RoboArmPointRegulatetProcess",
+"properties": {
+"Relation": "Navigate"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 78,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Gripper Release",
+"Behavior_Decription": "Gripper open to release component"
+      }
+    },
+    "r": {
+"identity": 135,
+"start": 78,
+"end": 15,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Good"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 81,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Gripper Valve Close",
+"Behavior_Decription": "Close valve to open the gripper"
+      }
+    },
+    "r": {
+"identity": 139,
+"start": 81,
+"end": 15,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Good"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 24,
+"labels": [
+        "Process",
+        "Decision"
+      ],
+"properties": {
+"Process_ID": "16",
+"Decision_Name": "PPOP result (OK?)",
+"Next_For_Positive": "Proceed to plug in",
+"Next_For _Negative": "Throw component to NG box"
+      }
+    },
+    "r": {
+"identity": 23,
+"start": 24,
+"end": 15,
+"type": "DecisionLeadtoProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 15,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "19",
+"Process_Name": "Proceed to plug in"
+      }
+    },
+    "r": {
+"identity": 12,
+"start": 15,
+"end": 16,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 16,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "20",
+"Process_Name": "PPOP opeartion ends Write Task Status=3"
+      }
+    },
+    "r": {
+"identity": 13,
+"start": 16,
+"end": 17,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 17,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "21",
+"Process_Name": "Received Task Status=3"
+      }
+    },
+    "r": {
+"identity": 14,
+"start": 17,
+"end": 18,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 18,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "22",
+"Process_Name": "Reset Task Status=0 to release pallet"
+      }
+    },
+    "r": {
+"identity": 15,
+"start": 18,
+"end": 19,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 67,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Lifter Valve Close",
+"Behavior_Decription": "Close valve to release the lifter"
+      }
+    },
+    "r": {
+"identity": 126,
+"start": 67,
+"end": 20,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Unlock"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 69,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Lifter Down",
+"Behavior_Decription": "Lifter come down"
+      }
+    },
+    "r": {
+"identity": 128,
+"start": 69,
+"end": 20,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Unlock"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 19,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "23",
+"Process_Name": "Task Status=0 Tell conveyor release pallet"
+      }
+    },
+    "r": {
+"identity": 16,
+"start": 19,
+"end": 20,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 63,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Rolling",
+"Behavior_Decription": "Conveyor moves driven by the servo motor"
+      }
+    },
+    "r": {
+"identity": 123,
+"start": 63,
+"end": 21,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Impulse"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 20,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "24",
+"Process_Name": "Release Pallet"
+      }
+    },
+    "r": {
+"identity": 17,
+"start": 20,
+"end": 21,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 64,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Scanning",
+"Behavior_Decription": "Scan RFID on PCB"
+      }
+    },
+    "r": {
+"identity": 141,
+"start": 64,
+"end": 22,
+"type": "BehaviorInDecision",
+"properties": {
+"Relation": "Impulse"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 25,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "1",
+"Process_Name": "Transport PCB (Continuous)"
+      }
+    },
+    "r": {
+"identity": 19,
+"start": 25,
+"end": 22,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 65,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Detecting",
+"Behavior_Decription": "Position Sensor detect Pallet in position"
+      }
+    },
+    "r": {
+"identity": 142,
+"start": 65,
+"end": 23,
+"type": "BehaviorInDecision",
+"properties": {
+"Relation": "Impulse"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 23,
+"labels": [
+        "Decision",
+        "Process"
+      ],
+"properties": {
+"Process_ID": "4",
+"Decision_Name": "PCB detect (in position?)",
+"Next_For_Positive": "Secure PCB",
+"Next_For _Negative": "PCB detect (in position?)"
+      }
+    },
+    "r": {
+"identity": 26,
+"start": 23,
+"end": 23,
+"type": "DecisionLeadtoProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 22,
+"labels": [
+        "Decision",
+        "Process"
+      ],
+"properties": {
+"Process_ID": "2",
+"Decision_Name": "RFID (Exist?)",
+"Next_For_Positive": "PCB detect (in position?)",
+"Next_For _Negative": "Stop and Warning"
+      }
+    },
+    "r": {
+"identity": 25,
+"start": 22,
+"end": 23,
+"type": "DecisionLeadtoProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 72,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "PPOP_Demo",
+"Behavior_Decription": "Main program of the PPOP process"
+      }
+    },
+    "r": {
+"identity": 143,
+"start": 72,
+"end": 24,
+"type": "BehaviorInDecision",
+"properties": {
+"Relation": "Check"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 12,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "15",
+"Process_Name": "Robot Arm receive component pins offset values and do calibration and plug in component"
+      }
+    },
+    "r": {
+"identity": 20,
+"start": 12,
+"end": 24,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 63,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Rolling",
+"Behavior_Decription": "Conveyor moves driven by the servo motor"
+      }
+    },
+    "r": {
+"identity": 122,
+"start": 63,
+"end": 25,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Impulse"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 21,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "25",
+"Process_Name": "Transport PCB (Out)"
+      }
+    },
+    "r": {
+"identity": 18,
+"start": 21,
+"end": 25,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 22,
+"labels": [
+        "Process",
+        "Decision"
+      ],
+"properties": {
+"Process_ID": "2",
+"Decision_Name": "RFID (Exist?)",
+"Next_For_Positive": "PCB detect (in position?)",
+"Next_For _Negative": "Stop and Warning"
+      }
+    },
+    "r": {
+"identity": 21,
+"start": 22,
+"end": 26,
+"type": "DecisionLeadtoProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 66,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Lifter Valve Open",
+"Behavior_Decription": "Open valve to raise the lifter"
+      }
+    },
+    "r": {
+"identity": 125,
+"start": 66,
+"end": 27,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Lock"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 68,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Lifter Up",
+"Behavior_Decription": "Lifter raise up"
+      }
+    },
+    "r": {
+"identity": 127,
+"start": 68,
+"end": 27,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Lock"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 23,
+"labels": [
+        "Process",
+        "Decision"
+      ],
+"properties": {
+"Process_ID": "4",
+"Decision_Name": "PCB detect (in position?)",
+"Next_For_Positive": "Secure PCB",
+"Next_For _Negative": "PCB detect (in position?)"
+      }
+    },
+    "r": {
+"identity": 22,
+"start": 23,
+"end": 27,
+"type": "DecisionLeadtoProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 63,
+"labels": [
+        "Behavior"
+      ],
+"properties": {
+"Behavior_Name": "Rolling",
+"Behavior_Decription": "Conveyor moves driven by the servo motor"
+      }
+    },
+    "r": {
+"identity": 124,
+"start": 63,
+"end": 28,
+"type": "BehaviorInProcess",
+"properties": {
+"Relation": "Hold"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 27,
+"labels": [
+        "Process"
+      ],
+"properties": {
+"Process_ID": "5",
+"Process_Name": "Secure PCB"
+      }
+    },
+    "r": {
+"identity": 0,
+"start": 27,
+"end": 28,
+"type": "ProcessFollowProcess",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 36,
+"start": 30,
+"end": 29,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "DO"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 55,
+"start": 51,
+"end": 29,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 32,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "DC24V",
+"Structure_Name": "Position Sensor"
+      }
+    },
+    "r": {
+"identity": 34,
+"start": 32,
+"end": 30,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "DI"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 28,
+"start": 29,
+"end": 30,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 29,
+"start": 29,
+"end": 31,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 30,
+"start": 29,
+"end": 32,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 62,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "DC24V",
+"Structure_Name": "Servo Motor Driver"
+      }
+    },
+    "r": {
+"identity": 66,
+"start": 62,
+"end": 33,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 31,
+"start": 29,
+"end": 33,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 32,
+"start": 29,
+"end": 34,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 35,
+"start": 30,
+"end": 34,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "DIO"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 34,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Lifter"
+      }
+    },
+    "r": {
+"identity": 33,
+"start": 34,
+"end": 35,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 61,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Air Regulator"
+      }
+    },
+    "r": {
+"identity": 64,
+"start": 61,
+"end": 35,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 42,
+"start": 45,
+"end": 36,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "DIO"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 36,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "P-POP Machine",
+"Structure_Full_Name": "Precise Picked-up Object Positioning Machine"
+      }
+    },
+    "r": {
+"identity": 37,
+"start": 36,
+"end": 37,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 36,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "P-POP Machine",
+"Structure_Full_Name": "Precise Picked-up Object Positioning Machine"
+      }
+    },
+    "r": {
+"identity": 38,
+"start": 36,
+"end": 38,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 36,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "P-POP Machine",
+"Structure_Full_Name": "Precise Picked-up Object Positioning Machine"
+      }
+    },
+    "r": {
+"identity": 39,
+"start": 36,
+"end": 39,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 36,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "P-POP Machine",
+"Structure_Full_Name": "Precise Picked-up Object Positioning Machine"
+      }
+    },
+    "r": {
+"identity": 40,
+"start": 36,
+"end": 40,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Ethernet/IP"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 126,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’) and place it back on the tray",
+"Initialization_ID": "26"
+      }
+    },
+    "r": {
+"identity": 217,
+"start": 126,
+"end": 42,
+"type": "InitializationUseStructure",
+"properties": {
+"Relation": "Use"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 122,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’ to close the gripper",
+"Initialization_ID": "22"
+      }
+    },
+    "r": {
+"identity": 216,
+"start": 122,
+"end": 42,
+"type": "InitializationUseStructure",
+"properties": {
+"Relation": "Use"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 111,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Proceed to generate ppopSetting file for component 1(5 pin). Move robot arm so that component is between gripper in both x and y direction. Close gripper and move component up until its pins are detected by laser. Read the Z-height value from teach pendant or DRAstudio",
+"Initialization_ID": "11"
+      }
+    },
+    "r": {
+"identity": 215,
+"start": 111,
+"end": 42,
+"type": "InitializationUseStructure",
+"properties": {
+"Relation": "Use"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 41,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "4-axis Robot Arm"
+      }
+    },
+    "r": {
+"identity": 43,
+"start": 41,
+"end": 42,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 61,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Air Regulator"
+      }
+    },
+    "r": {
+"identity": 65,
+"start": 61,
+"end": 43,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 42,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Gripper"
+      }
+    },
+    "r": {
+"identity": 46,
+"start": 42,
+"end": 43,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 41,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "4-axis Robot Arm"
+      }
+    },
+    "r": {
+"identity": 44,
+"start": 41,
+"end": 44,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 41,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "4-axis Robot Arm"
+      }
+    },
+    "r": {
+"identity": 45,
+"start": 41,
+"end": 45,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 40,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "AC220V",
+"Structure_Full_Name": "Industrial Personal Computer",
+"Structure_Name": "IPC"
+      }
+    },
+    "r": {
+"identity": 41,
+"start": 40,
+"end": 45,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Modbus TCP"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 143,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",
+"Initialization_ID": "43"
+      }
+    },
+    "r": {
+"identity": 218,
+"start": 143,
+"end": 46,
+"type": "InitializationUseStructure",
+"properties": {
+"Relation": "Use"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 100,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "To teach a point in to the RL’s points list, use teach pendant to move robot arm to desired location, then click 'Teach’ button. Remember to 'Save’ after each teaching. New individual insertion position and the corresponding image are a pair for reference. You can never use new position with the old reference images'",
+"Initialization_ID": "0"
+      }
+    },
+    "r": {
+"identity": 214,
+"start": 100,
+"end": 46,
+"type": "InitializationUseStructure",
+"properties": {
+"Relation": "Use"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 46,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Teach pendant"
+      }
+    },
+    "r": {
+"identity": 51,
+"start": 46,
+"end": 47,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 54,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot table"
+      }
+    },
+    "r": {
+"identity": 47,
+"start": 54,
+"end": 47,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 59,
+"start": 51,
+"end": 47,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 46,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Teach pendant"
+      }
+    },
+    "r": {
+"identity": 52,
+"start": 46,
+"end": 48,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 46,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Teach pendant"
+      }
+    },
+    "r": {
+"identity": 53,
+"start": 46,
+"end": 49,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 56,
+"start": 51,
+"end": 49,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 46,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Teach pendant"
+      }
+    },
+    "r": {
+"identity": 54,
+"start": 46,
+"end": 50,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 57,
+"start": 51,
+"end": 52,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 60,
+"start": 51,
+"end": 53,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 54,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot table"
+      }
+    },
+    "r": {
+"identity": 49,
+"start": 54,
+"end": 55,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 54,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot table"
+      }
+    },
+    "r": {
+"identity": 48,
+"start": 54,
+"end": 56,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 54,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot table"
+      }
+    },
+    "r": {
+"identity": 50,
+"start": 54,
+"end": 57,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 58,
+"start": 51,
+"end": 58,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 61,
+"start": 51,
+"end": 59,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 60,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "E-Box"
+      }
+    },
+    "r": {
+"identity": 62,
+"start": 60,
+"end": 61,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 60,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "E-Box"
+      }
+    },
+    "r": {
+"identity": 63,
+"start": 60,
+"end": 62,
+"type": "StructureAndStructure",
+"properties": {
+"RelationType": "Contain"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 33,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "AC220V",
+"Structure_Name": "Servo Motor"
+      }
+    },
+    "r": {
+"identity": 89,
+"start": 33,
+"end": 63,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 80,
+"start": 30,
+"end": 63,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 62,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "DC24V",
+"Structure_Name": "Servo Motor Driver"
+      }
+    },
+    "r": {
+"identity": 121,
+"start": 62,
+"end": 63,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 79,
+"start": 29,
+"end": 63,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 81,
+"start": 30,
+"end": 64,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 1,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "PCB",
+"Structure_Full_Name": "Printed circuit board"
+      }
+    },
+    "r": {
+"identity": 70,
+"start": 1,
+"end": 64,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 31,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "RFID Scanner",
+"Structure_Full_Name": "Radio Frequency Identification Scanner"
+      }
+    },
+    "r": {
+"identity": 87,
+"start": 31,
+"end": 64,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 0,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Pallet"
+      }
+    },
+    "r": {
+"identity": 67,
+"start": 0,
+"end": 65,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 32,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "DC24V",
+"Structure_Name": "Position Sensor"
+      }
+    },
+    "r": {
+"identity": 88,
+"start": 32,
+"end": 65,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 82,
+"start": 30,
+"end": 65,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 85,
+"start": 30,
+"end": 66,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 61,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Air Regulator"
+      }
+    },
+    "r": {
+"identity": 117,
+"start": 61,
+"end": 66,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 35,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Solenoid Lifter Valve"
+      }
+    },
+    "r": {
+"identity": 92,
+"start": 35,
+"end": 66,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 61,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Air Regulator"
+      }
+    },
+    "r": {
+"identity": 118,
+"start": 61,
+"end": 67,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 35,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Solenoid Lifter Valve"
+      }
+    },
+    "r": {
+"identity": 93,
+"start": 35,
+"end": 67,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 86,
+"start": 30,
+"end": 67,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 83,
+"start": 30,
+"end": 68,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 34,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Lifter"
+      }
+    },
+    "r": {
+"identity": 90,
+"start": 34,
+"end": 68,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 0,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Pallet"
+      }
+    },
+    "r": {
+"identity": 68,
+"start": 0,
+"end": 68,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 30,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor PLC",
+"Structure_Full_Name": "Conveyor Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 84,
+"start": 30,
+"end": 69,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 0,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Pallet"
+      }
+    },
+    "r": {
+"identity": 69,
+"start": 0,
+"end": 69,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 34,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Lifter"
+      }
+    },
+    "r": {
+"identity": 91,
+"start": 34,
+"end": 69,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "5-pin Component"
+      }
+    },
+    "r": {
+"identity": 75,
+"start": 4,
+"end": 70,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 37,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "PPOP PLC",
+"Structure_Full_Name": "Precise Picked-up Object Positioning Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 94,
+"start": 37,
+"end": 70,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 2,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "3-pin Component"
+      }
+    },
+    "r": {
+"identity": 71,
+"start": 2,
+"end": 70,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 38,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "DC24V",
+"Structure_Name": "Line Camera"
+      }
+    },
+    "r": {
+"identity": 96,
+"start": 38,
+"end": 70,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 39,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "DC24V",
+"Structure_Name": "Line Laser"
+      }
+    },
+    "r": {
+"identity": 97,
+"start": 39,
+"end": 71,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 37,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "PPOP PLC",
+"Structure_Full_Name": "Precise Picked-up Object Positioning Programmable Logic Controller"
+      }
+    },
+    "r": {
+"identity": 95,
+"start": 37,
+"end": 71,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 40,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "AC220V",
+"Structure_Full_Name": "Industrial Personal Computer",
+"Structure_Name": "IPC"
+      }
+    },
+    "r": {
+"identity": 98,
+"start": 40,
+"end": 72,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 105,
+"start": 45,
+"end": 73,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 2,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "3-pin Component"
+      }
+    },
+    "r": {
+"identity": 72,
+"start": 2,
+"end": 73,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 44,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Rotator"
+      }
+    },
+    "r": {
+"identity": 110,
+"start": 44,
+"end": 73,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "5-pin Component"
+      }
+    },
+    "r": {
+"identity": 76,
+"start": 4,
+"end": 73,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 100,
+"start": 45,
+"end": 74,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 41,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "4-axis Robot Arm"
+      }
+    },
+    "r": {
+"identity": 99,
+"start": 41,
+"end": 74,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 46,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Teach pendant"
+      }
+    },
+    "r": {
+"identity": 111,
+"start": 46,
+"end": 75,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Manual"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 48,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Jog wheel "
+      }
+    },
+    "r": {
+"identity": 113,
+"start": 48,
+"end": 75,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Manual"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 49,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Touchscreen"
+      }
+    },
+    "r": {
+"identity": 114,
+"start": 49,
+"end": 75,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Manual"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 47,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Emergency button"
+      }
+    },
+    "r": {
+"identity": 112,
+"start": 47,
+"end": 76,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Trigger"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 58,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "On/Off switch "
+      }
+    },
+    "r": {
+"identity": 116,
+"start": 58,
+"end": 77,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Manual"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 52,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "On/Off switch "
+      }
+    },
+    "r": {
+"identity": 115,
+"start": 52,
+"end": 77,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Manual"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 96,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "DO1 ON, DO2  OFF ",
+"Description": "Gripper Open",
+"Component": "Both",
+"Name": "GripperOpen"
+      }
+    },
+    "r": {
+"identity": 157,
+"start": 96,
+"end": 78,
+"type": "RoboArmPointRegulateBehavior",
+"properties": {
+"Relation": "Digital Output"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "5-pin Component"
+      }
+    },
+    "r": {
+"identity": 77,
+"start": 4,
+"end": 78,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 2,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "3-pin Component"
+      }
+    },
+    "r": {
+"identity": 73,
+"start": 2,
+"end": 78,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 101,
+"start": 45,
+"end": 78,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 42,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Gripper"
+      }
+    },
+    "r": {
+"identity": 106,
+"start": 42,
+"end": 78,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 97,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "DO1 OFF, DO2  ON",
+"Description": "Gripper Close",
+"Component": "Both",
+"Name": "GripperClose"
+      }
+    },
+    "r": {
+"identity": 158,
+"start": 97,
+"end": 79,
+"type": "RoboArmPointRegulateBehavior",
+"properties": {
+"Relation": "Digital Output"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 102,
+"start": 45,
+"end": 79,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "5-pin Component"
+      }
+    },
+    "r": {
+"identity": 78,
+"start": 4,
+"end": 79,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 42,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Gripper"
+      }
+    },
+    "r": {
+"identity": 107,
+"start": 42,
+"end": 79,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 2,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "3-pin Component"
+      }
+    },
+    "r": {
+"identity": 74,
+"start": 2,
+"end": 79,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Is objective of"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 99,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "DI2  ON, DI3 OFF",
+"Description": "Valve Open to close the Gripper",
+"Component": "Both",
+"Name": "ValveOpen"
+      }
+    },
+    "r": {
+"identity": 160,
+"start": 99,
+"end": 80,
+"type": "RoboArmPointRegulateBehavior",
+"properties": {
+"Relation": "Digital Input"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 103,
+"start": 45,
+"end": 80,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 61,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Air Regulator"
+      }
+    },
+    "r": {
+"identity": 119,
+"start": 61,
+"end": 80,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 43,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Solenoid Gripper valve"
+      }
+    },
+    "r": {
+"identity": 108,
+"start": 43,
+"end": 80,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 98,
+"labels": [
+        "Robot_Arm_Point"
+      ],
+"properties": {
+"Robot_Arm_Point": "DI2  OFF, DI3 ON",
+"Description": "Valve Close to open the Gripper",
+"Component": "Both",
+"Name": "ValveClose"
+      }
+    },
+    "r": {
+"identity": 159,
+"start": 98,
+"end": 81,
+"type": "RoboArmPointRegulateBehavior",
+"properties": {
+"Relation": "Digital Input"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 43,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Solenoid Gripper valve"
+      }
+    },
+    "r": {
+"identity": 109,
+"start": 43,
+"end": 81,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Execute"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 61,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Air Regulator"
+      }
+    },
+    "r": {
+"identity": 120,
+"start": 61,
+"end": 81,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Drive"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 45,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Robot Arm Controller"
+      }
+    },
+    "r": {
+"identity": 104,
+"start": 45,
+"end": 81,
+"type": "SturcutureHasBehavior",
+"properties": {
+"Relation": "Control"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 143,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",
+"Initialization_ID": "43"
+      }
+    },
+    "r": {
+"identity": 240,
+"start": 143,
+"end": 83,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 118,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For points 1003 and 1004, 'NGup’ and 'NGdown’, the points location should be at above the NG box and at location where gripper will release the NG components",
+"Initialization_ID": "18"
+      }
+    },
+    "r": {
+"identity": 219,
+"start": 118,
+"end": 85,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 118,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For points 1003 and 1004, 'NGup’ and 'NGdown’, the points location should be at above the NG box and at location where gripper will release the NG components",
+"Initialization_ID": "18"
+      }
+    },
+    "r": {
+"identity": 220,
+"start": 118,
+"end": 86,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 120,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For point 1015, 'Feeder1Up’, it will be the same as 1016 for X, Y and RZ value. Change only its Z (mm) value to around 80mm above 1015’s Z value. For example, Z value for 1016 is -131.527 -> set Z value for 1015 to be around -50",
+"Initialization_ID": "20"
+      }
+    },
+    "r": {
+"identity": 223,
+"start": 120,
+"end": 87,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 119,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For point 1016, 'Feeder1Down’, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'On’ and DO2 is 'Off’)",
+"Initialization_ID": "19"
+      }
+    },
+    "r": {
+"identity": 221,
+"start": 119,
+"end": 88,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 127,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Move robot arm to point 1018, change the Jog mode to 'Joint’ to convert the values to puu. Record the puu value for J4.
+For example, the J4 value below shows -933493 puu, convert puu to degree using the following formula. -933493 puu = (-933493 /15/100000) x 360 = -224.04 degree",
+"Initialization_ID": "27"
+      }
+    },
+    "r": {
+"identity": 230,
+"start": 127,
+"end": 89,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 121,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Points 1018 and 1019, C1Onfly1A and C1Onfly1B will be the starting and ending point of OnFly     function for component 1",
+"Initialization_ID": "21"
+      }
+    },
+    "r": {
+"identity": 224,
+"start": 121,
+"end": 89,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 129,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "The difference in J4 angle in degree for 1018 and 1019 is bigger then 200 degree is OK.
+If less than 200 degree means that for point 1018 and 1019, the DMV camera is not near enough to the cover",
+"Initialization_ID": "29"
+      }
+    },
+    "r": {
+"identity": 232,
+"start": 129,
+"end": 89,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 124,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Rotate (Rz) the robot arm shaft so that the DMV camera is on the laser source side (height/Z value must remained the same as obtained in step 23). Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1018, C1Onfly1A",
+"Initialization_ID": "24"
+      }
+    },
+    "r": {
+"identity": 227,
+"start": 124,
+"end": 89,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 129,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "The difference in J4 angle in degree for 1018 and 1019 is bigger then 200 degree is OK.
+If less than 200 degree means that for point 1018 and 1019, the DMV camera is not near enough to the cover",
+"Initialization_ID": "29"
+      }
+    },
+    "r": {
+"identity": 233,
+"start": 129,
+"end": 90,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 128,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat step 26 by using point 1019",
+"Initialization_ID": "28"
+      }
+    },
+    "r": {
+"identity": 231,
+"start": 128,
+"end": 90,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 121,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Points 1018 and 1019, C1Onfly1A and C1Onfly1B will be the starting and ending point of OnFly     function for component 1",
+"Initialization_ID": "21"
+      }
+    },
+    "r": {
+"identity": 225,
+"start": 121,
+"end": 90,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 125,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Move the robot arm to the location where PCB will be stopped on the conveyor, with height/Z value remained the same as step 24. Then, rotate (Rz) the robot arm shaft so that the DMV camera is at the Line/Teledyne Dalsa camera side. Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1019, C1Onfly1B",
+"Initialization_ID": "25"
+      }
+    },
+    "r": {
+"identity": 228,
+"start": 125,
+"end": 90,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 141,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Teach this point as 1021, C1PluginDown (in 'World' mode). Then, change the mode to 'User' and select '1' under 'UF'. Select to highlight row 1022, C1PluginDownUF, click 'Teach' again",
+"Initialization_ID": "41"
+      }
+    },
+    "r": {
+"identity": 235,
+"start": 141,
+"end": 91,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 140,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Using teach pendant, in ‘Cartesian’ mode and speed ‘1%’, move the component slowly until it is plug in to the corresponding PCB holes",
+"Initialization_ID": "40"
+      }
+    },
+    "r": {
+"identity": 234,
+"start": 140,
+"end": 91,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 143,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",
+"Initialization_ID": "43"
+      }
+    },
+    "r": {
+"identity": 236,
+"start": 143,
+"end": 92,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 143,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",
+"Initialization_ID": "43"
+      }
+    },
+    "r": {
+"identity": 237,
+"start": 143,
+"end": 93,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 143,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",
+"Initialization_ID": "43"
+      }
+    },
+    "r": {
+"identity": 238,
+"start": 143,
+"end": 94,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 143,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 19-42 for component 2 with its corresponding points being 1035, 1036, 1038, 1039, 1040, 1041, and 1042",
+"Initialization_ID": "43"
+      }
+    },
+    "r": {
+"identity": 239,
+"start": 143,
+"end": 95,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Set"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 119,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For point 1016, 'Feeder1Down’, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'On’ and DO2 is 'Off’)",
+"Initialization_ID": "19"
+      }
+    },
+    "r": {
+"identity": 222,
+"start": 119,
+"end": 96,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Under status"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 126,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’) and place it back on the tray",
+"Initialization_ID": "26"
+      }
+    },
+    "r": {
+"identity": 229,
+"start": 126,
+"end": 97,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Under status"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 122,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’ to close the gripper",
+"Initialization_ID": "22"
+      }
+    },
+    "r": {
+"identity": 226,
+"start": 122,
+"end": 97,
+"type": "InitializationSetRobot_Arm_Point",
+"properties": {
+"Relation": "Under status"
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 100,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "To teach a point in to the RL’s points list, use teach pendant to move robot arm to desired location, then click 'Teach’ button. Remember to 'Save’ after each teaching. New individual insertion position and the corresponding image are a pair for reference. You can never use new position with the old reference images'",
+"Initialization_ID": "0"
+      }
+    },
+    "r": {
+"identity": 171,
+"start": 100,
+"end": 101,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 101,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Save OnFly Test folder in C:\Delta Industrial Automation\DELTA_IA-Robot_DRAStudio-V1-00-07-18_SW_TSE_20190121\DROEsolution",
+"Initialization_ID": "1"
+      }
+    },
+    "r": {
+"identity": 172,
+"start": 101,
+"end": 102,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 102,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Open DRAstudio. Click Project>>Click Change Path>> Change Path>>
+search for DROEsolution folder in C:\Delta Industrial Automation\DELTA_IA-Robot_DRAStudio-V1-00-07-18_SW_TSE_20190121\DROEsolution
+>>click on DROEsolution folder >>OK>>Apply",
+"Initialization_ID": "2"
+      }
+    },
+    "r": {
+"identity": 173,
+"start": 102,
+"end": 103,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 103,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Click the drag window and select OnFly Test. Click Edit Project",
+"Initialization_ID": "3"
+      }
+    },
+    "r": {
+"identity": 174,
+"start": 103,
+"end": 104,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 104,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "The codes should appear after RL is clicked",
+"Initialization_ID": "4"
+      }
+    },
+    "r": {
+"identity": 175,
+"start": 104,
+"end": 105,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 105,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Open P-POP setting program by unzipping the file",
+"Initialization_ID": "5"
+      }
+    },
+    "r": {
+"identity": 176,
+"start": 105,
+"end": 106,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 106,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Type '0’(run onfly RL with no component on gripper)>>Enter",
+"Initialization_ID": "6"
+      }
+    },
+    "r": {
+"identity": 177,
+"start": 106,
+"end": 107,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 107,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Click on the camera image window and press q to close it",
+"Initialization_ID": "7"
+      }
+    },
+    "r": {
+"identity": 178,
+"start": 107,
+"end": 108,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 108,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Wait until step 4 message appear. Then make sure no component is on gripper and the robot path is clear. Run the RL program",
+"Initialization_ID": "8"
+      }
+    },
+    "r": {
+"identity": 179,
+"start": 108,
+"end": 109,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 109,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Type 'y’ in P-POP setting program(step4) and press Enter after Onfly RL program finished running",
+"Initialization_ID": "9"
+      }
+    },
+    "r": {
+"identity": 180,
+"start": 109,
+"end": 110,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 110,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "’Trigger success’ should appear. A file ppopSetting_0 should appear in P-POP setting program folder",
+"Initialization_ID": "10"
+      }
+    },
+    "r": {
+"identity": 181,
+"start": 110,
+"end": 111,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 111,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Proceed to generate ppopSetting file for component 1(5 pin). Move robot arm so that component is between gripper in both x and y direction. Close gripper and move component up until its pins are detected by laser. Read the Z-height value from teach pendant or DRAstudio",
+"Initialization_ID": "11"
+      }
+    },
+    "r": {
+"identity": 182,
+"start": 111,
+"end": 112,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 112,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Under 'Points’ tab, key in the Z-height value read from step 11 for all rows",
+"Initialization_ID": "12"
+      }
+    },
+    "r": {
+"identity": 183,
+"start": 112,
+"end": 113,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 113,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat steps 5-10 for component 1. At step 6, remember to type '1’ instead of 0 as we are generating file for component 1",
+"Initialization_ID": "13"
+      }
+    },
+    "r": {
+"identity": 184,
+"start": 113,
+"end": 114,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 114,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For component 2 (3 pins), repeat step 11-12, followed by step 5-10",
+"Initialization_ID": "14"
+      }
+    },
+    "r": {
+"identity": 185,
+"start": 114,
+"end": 115,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 115,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "3 files will be generated in P-POP setting folder. Send them to AGPC team to be converted into 'golden’ reference images",
+"Initialization_ID": "15"
+      }
+    },
+    "r": {
+"identity": 186,
+"start": 115,
+"end": 116,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 116,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Open the '2019 TSM Final’ file with DRAStudio. Click the 'Points’ tab on the left. A list of 42 points will be shown",
+"Initialization_ID": "16"
+      }
+    },
+    "r": {
+"identity": 187,
+"start": 116,
+"end": 117,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 117,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For points 1001 and 1002, 'Start’ and 'Safe’, one can set them as the same points. The points’ location shall be cleared of any obstructions as PPOP operation will start from here",
+"Initialization_ID": "17"
+      }
+    },
+    "r": {
+"identity": 188,
+"start": 117,
+"end": 118,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 118,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For points 1003 and 1004, 'NGup’ and 'NGdown’, the points location should be at above the NG box and at location where gripper will release the NG components",
+"Initialization_ID": "18"
+      }
+    },
+    "r": {
+"identity": 189,
+"start": 118,
+"end": 119,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 119,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For point 1016, 'Feeder1Down’, move robot arm with teach pendant to a location where gripper can grip component 1 on the tray, as shown below.  (make sure gripper is open, DO1 is 'On’ and DO2 is 'Off’)",
+"Initialization_ID": "19"
+      }
+    },
+    "r": {
+"identity": 190,
+"start": 119,
+"end": 120,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 120,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "For point 1015, 'Feeder1Up’, it will be the same as 1016 for X, Y and RZ value. Change only its Z (mm) value to around 80mm above 1015’s Z value. For example, Z value for 1016 is -131.527 -> set Z value for 1015 to be around -50",
+"Initialization_ID": "20"
+      }
+    },
+    "r": {
+"identity": 191,
+"start": 120,
+"end": 121,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 121,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Points 1018 and 1019, C1Onfly1A and C1Onfly1B will be the starting and ending point of OnFly     function for component 1",
+"Initialization_ID": "21"
+      }
+    },
+    "r": {
+"identity": 192,
+"start": 121,
+"end": 122,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 122,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "When the gripper/robot arm is at point 1016 as taught at step 19. Click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’ to close the gripper",
+"Initialization_ID": "22"
+      }
+    },
+    "r": {
+"identity": 193,
+"start": 122,
+"end": 123,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 123,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "With component 1 being gripped, move the gripper/robot arm to the height (Z value) where component 1’s pins will be detected by the laser source. You could refer to the height/Z value taught in 'PPOP_Setting program guide’ step 11",
+"Initialization_ID": "23"
+      }
+    },
+    "r": {
+"identity": 194,
+"start": 123,
+"end": 124,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 124,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Rotate (Rz) the robot arm shaft so that the DMV camera is on the laser source side (height/Z value must remained the same as obtained in step 23). Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1018, C1Onfly1A",
+"Initialization_ID": "24"
+      }
+    },
+    "r": {
+"identity": 195,
+"start": 124,
+"end": 125,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 125,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Move the robot arm to the location where PCB will be stopped on the conveyor, with height/Z value remained the same as step 24. Then, rotate (Rz) the robot arm shaft so that the DMV camera is at the Line/Teledyne Dalsa camera side. Rotate the shaft until the DMV camera is as close as possible to the PPOP cover. Teach this point as 1019, C1Onfly1B",
+"Initialization_ID": "25"
+      }
+    },
+    "r": {
+"identity": 196,
+"start": 125,
+"end": 126,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 126,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Release the component from the gripper (click User DO1 and DO2 so that DO1 is 'Off’ and DO2 is 'On’) and place it back on the tray",
+"Initialization_ID": "26"
+      }
+    },
+    "r": {
+"identity": 197,
+"start": 126,
+"end": 127,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 127,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Move robot arm to point 1018, change the Jog mode to 'Joint’ to convert the values to puu. Record the puu value for J4.
+For example, the J4 value below shows -933493 puu, convert puu to degree using the following formula. -933493 puu = (-933493 /15/100000) x 360 = -224.04 degree",
+"Initialization_ID": "27"
+      }
+    },
+    "r": {
+"identity": 198,
+"start": 127,
+"end": 128,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 128,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Repeat step 26 by using point 1019",
+"Initialization_ID": "28"
+      }
+    },
+    "r": {
+"identity": 199,
+"start": 128,
+"end": 129,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 129,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "The difference in J4 angle in degree for 1018 and 1019 is bigger then 200 degree is OK.
+If less than 200 degree means that for point 1018 and 1019, the DMV camera is not near enough to the cover",
+"Initialization_ID": "29"
+      }
+    },
+    "r": {
+"identity": 200,
+"start": 129,
+"end": 130,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 130,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Click the RL tab on the left. Scroll down till line 475. Click on the space beside the number 475. A red dot (breakpoint) will appear on the left",
+"Initialization_ID": "30"
+      }
+    },
+    "r": {
+"identity": 201,
+"start": 130,
+"end": 131,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 131,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Open the PPOPDemo folder.  
+Paste the 'golden reference image’ (obtained from AGPC, TW in the 'PPOP_Setting program guide’) to the PPOP_Reference folder",
+"Initialization_ID": "31"
+      }
+    },
+    "r": {
+"identity": 202,
+"start": 131,
+"end": 132,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 132,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Click the 'P-POP_demo’ application file. T
+The program’s user interface will now show up",
+"Initialization_ID": "32"
+      }
+    },
+    "r": {
+"identity": 203,
+"start": 132,
+"end": 133,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 133,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Click the 'Analysis' tab, Click 'Set Reference'. Click the Reference Img box on the row of ID1 and browse to the PPOP_Reference folder. ",
+"Initialization_ID": "33"
+      }
+    },
+    "r": {
+"identity": 204,
+"start": 133,
+"end": 134,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 134,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Select the 'golden reference image'. Click 'Save Reference' and it will turn green.Close the window",
+"Initialization_ID": "34"
+      }
+    },
+    "r": {
+"identity": 205,
+"start": 134,
+"end": 135,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 135,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Click the 'P-POP' tab. Then, select CPU and click 'Start'. Both the 'IDLE' box should turn green and become 'Camera Linked' and 'Linked'",
+"Initialization_ID": "35"
+      }
+    },
+    "r": {
+"identity": 206,
+"start": 135,
+"end": 136,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 136,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Run the RL program by clicking 'Start'",
+"Initialization_ID": "36"
+      }
+    },
+    "r": {
+"identity": 207,
+"start": 136,
+"end": 137,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 137,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "The robot arm should stop somewhere above the PCB, as the RL program will stop at line 475. Switch the robot arm into 'Manual' mode",
+"Initialization_ID": "37"
+      }
+    },
+    "r": {
+"identity": 208,
+"start": 137,
+"end": 138,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 138,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Check that on PPOPDemo program, the 'OK' signal should appear on the box on top",
+"Initialization_ID": "38"
+      }
+    },
+    "r": {
+"identity": 209,
+"start": 138,
+"end": 139,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 139,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Stop the PPOPDemo program. Click the 'Analysis' tab. Click 'Set Reference’. Click the Reference Img box on the row of ID1 and browse to the PPOP_Image folder. Select the 'image generated’. Click 'Save Reference’ and it will turn green. Close the window. Now, PPOPDemo program will refer to the 'image generated' as 'golden image'",
+"Initialization_ID": "39"
+      }
+    },
+    "r": {
+"identity": 210,
+"start": 139,
+"end": 140,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 140,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Using teach pendant, in ‘Cartesian’ mode and speed ‘1%’, move the component slowly until it is plug in to the corresponding PCB holes",
+"Initialization_ID": "40"
+      }
+    },
+    "r": {
+"identity": 211,
+"start": 140,
+"end": 141,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 141,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "Teach this point as 1021, C1PluginDown (in 'World' mode). Then, change the mode to 'User' and select '1' under 'UF'. Select to highlight row 1022, C1PluginDownUF, click 'Teach' again",
+"Initialization_ID": "41"
+      }
+    },
+    "r": {
+"identity": 212,
+"start": 141,
+"end": 142,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 142,
+"labels": [
+        "Initialization"
+      ],
+"properties": {
+"Initialization_Name": "copy one row' 1022, and 'paste one row' to 1020, C1PluginUpUF.  Edit only the Z value of 1020 to be around 20mm more than that of 1022. For example, if the Z value of 1022 = -35(mm), edit the Z value of 1020 to be around -15(mm) with the remaining X, Y and RZ values unchanged. Remember to 'Save'",
+"Initialization_ID": "42"
+      }
+    },
+    "r": {
+"identity": 213,
+"start": 142,
+"end": 143,
+"type": "InitializationFollowInitialization",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 252,
+"start": 29,
+"end": 144,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor module control panel"
+      }
+    },
+    "r": {
+"identity": 251,
+"start": 51,
+"end": 144,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 60,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "E-Box"
+      }
+    },
+    "r": {
+"identity": 253,
+"start": 60,
+"end": 145,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 144,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Start the conveyor belt and make sure it is moving",
+"UserOperation": "0"
+      }
+    },
+    "r": {
+"identity": 241,
+"start": 144,
+"end": 145,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 42,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Drive": "Air",
+"Structure_Name": "Gripper"
+      }
+    },
+    "r": {
+"identity": 256,
+"start": 42,
+"end": 146,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "5-pin Component"
+      }
+    },
+    "r": {
+"identity": 255,
+"start": 4,
+"end": 146,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 2,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "3-pin Component"
+      }
+    },
+    "r": {
+"identity": 254,
+"start": 2,
+"end": 146,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 145,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Go to Ebox under the robot arm to switch on the machine",
+"UserOperation": "1"
+      }
+    },
+    "r": {
+"identity": 242,
+"start": 145,
+"end": 146,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 146,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Ensure that components are available on first row of tray. Ensure that no component is on gripper",
+"UserOperation": "2"
+      }
+    },
+    "r": {
+"identity": 243,
+"start": 146,
+"end": 147,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 147,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Log in to PPOP computer.
+Username : SRV-SG.SMART
+Password : (contact machine owner for log-in credentials)",
+"UserOperation": "3"
+      }
+    },
+    "r": {
+"identity": 244,
+"start": 147,
+"end": 148,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 148,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Double click DRAstudio on desktop.  If by any instances error popped out, just click ok to ignore.",
+"UserOperation": "4"
+      }
+    },
+    "r": {
+"identity": 245,
+"start": 148,
+"end": 149,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 46,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Teach pendant"
+      }
+    },
+    "r": {
+"identity": 257,
+"start": 46,
+"end": 150,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 149,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Login.(contact machine owner for log-in credentials)",
+"UserOperation": "5"
+      }
+    },
+    "r": {
+"identity": 246,
+"start": 149,
+"end": 150,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 150,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Click Ethernet. Click Connect. Once connected, the Ethernet symbol will turn GREEN. Make sure the Teach Pendant symbol is in ORANGE. If not, go to the teach pendant and press the Teach Pendant symbol",
+"UserOperation": "6"
+      }
+    },
+    "r": {
+"identity": 247,
+"start": 150,
+"end": 151,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 151,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Click Play to run the program",
+"UserOperation": "7"
+      }
+    },
+    "r": {
+"identity": 248,
+"start": 151,
+"end": 152,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 152,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Open the PPOPDemo folder on desktop. Double click on P-PPOP_demo",
+"UserOperation": "8"
+      }
+    },
+    "r": {
+"identity": 249,
+"start": 152,
+"end": 153,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 29,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Conveyor"
+      }
+    },
+    "r": {
+"identity": 259,
+"start": 29,
+"end": 154,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 0,
+"labels": [
+        "Structure"
+      ],
+"properties": {
+"Structure_Name": "Pallet"
+      }
+    },
+    "r": {
+"identity": 258,
+"start": 0,
+"end": 154,
+"type": "StructureInUserOperation",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 153,
+"labels": [
+        "User_Operation"
+      ],
+"properties": {
+"UserOperation_Name": "Click Start. Wait till the 2 IDLE boxes turn GREEN. (means that line camera is linked)",
+"UserOperation": "9"
+      }
+    },
+    "r": {
+"identity": 250,
+"start": 153,
+"end": 154,
+"type": "UserOperationFollowUserOperation",
+"properties": {
+
+      }
+    }
+  }
+]
